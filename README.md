@@ -1,4 +1,5 @@
-Directory structure
+# Directory structure
+```
 build
   |
   com
@@ -25,11 +26,16 @@ src
 		|-Earth.java
 		|-Mars.java
 		|-Venus.java
+		
+		
+```
 
-Command to build the code that worked:
-
+## Command to build the code that worked:
+```
 javac -cp src -d build src/com/ocajexam/tutorial/GreetingsUniverse.java
+```
 
-Command to run that worked:
-
+## Command to run that worked:
+```
 java -cp . com.ocajexam.tutorial.GreetingsUniverse
+```
